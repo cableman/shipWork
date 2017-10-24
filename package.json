@@ -1,0 +1,45 @@
+{
+  "name": "shipwork",
+  "version": "1.0.0",
+  "description": "Simple interface for logging work done on the ship",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "NODE_ENV=development DEBUG=search-node* ./node_modules/.bin/nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cableman/shipwork.git"
+  },
+  "keywords": [
+    "ship",
+    "database",
+    "web",
+    "log"
+  ],
+  "author": "Jesper Kristensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cableman/shipwork/issues"
+  },
+  "homepage": "https://github.com/cableman/shipwork#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonfile": "^4.0.0",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.4.5",
+    "twig": "^1.10.5"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "should": "^13.1.2",
+    "supertest": "^3.0.0"
+  }
+}
